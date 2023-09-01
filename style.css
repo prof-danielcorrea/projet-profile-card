@@ -1,0 +1,250 @@
+html {
+    font-family: 'Kumbh Sans', sans-serif;  
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border: none;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+img {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.nome {
+    font-size: 2rem;
+    
+}
+.color-silver {
+    
+    color:hsl(227, 10%, 46%);
+    
+}
+
+.idade {
+
+    color:hsl(227, 10%, 46%);
+}
+
+.followers {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+.likes {
+
+    display: inline-block;
+    text-align: center;
+}
+
+.photos {
+
+    display: inline-block;
+    text-align: center;
+    
+}
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+hr {
+   
+    height: 3px;
+    background-color: hsl(225, 4%, 80%);
+    border: 0;
+    
+}
+
+/* responsividade --> */
+
+@media(max-width:768px){
+    .container{
+        width: 330px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nome {
+        font-size: 20px;
+    }
+    .color-silver{
+        color:hsl(227, 10%, 46%);
+        font-size: 16px;
+    }
+    
+    .followers{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+
+    }
+    .likes{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .photos{
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+}
+
+@media(max-width:425px){
+    .container{
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nome {
+        font-size: 20px;
+    }
+    .color-silver{
+        color:hsl(227, 10%, 46%);
+        font-size: 16px;
+    }
+    
+    .followers{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+
+    }
+    .likes{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .photos{
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+}
+
+@media(max-width:375px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nome {
+        font-size: 20px;
+    }
+    .color-silver{
+        color:hsl(227, 10%, 46%);
+        font-size: 16px;
+    }
+    
+    .followers{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+
+    }
+    .likes{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .photos{
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+}
+
+@media(max-width:320px){
+    .container{
+        width: 280px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nome {
+        font-size: 20px;
+    }
+    .color-silver{
+        color:hsl(227, 10%, 46%);
+        font-size: 16px;
+    }
+    
+    .followers{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+
+    }
+    .likes{
+        
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .photos{
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+}
