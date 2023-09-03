@@ -1,6 +1,6 @@
 html {
     font-family: 'Kumbh Sans', sans-serif;  
-    background-color: hsl(0, 100%, 0%);
+    background-color: hsl(185, 75%, 39%);
 }
 
 .container {
@@ -10,7 +10,7 @@ html {
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 200px;
-    box-shadow: 5px 10px 30px hsl(0, 91%, 37%);
+    box-shadow: 5px 10px 30px hsl(235, 92%, 26%);
     
 }
 .card {
